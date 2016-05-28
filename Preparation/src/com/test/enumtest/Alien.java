@@ -1,0 +1,16 @@
+
+
+package com.test.enumtest;
+
+public class Alien {
+
+	String invade(short ships){
+		
+		return "a few";
+		
+	}
+	String invade(short... ships){
+		return "many";
+	}
+	
+}
